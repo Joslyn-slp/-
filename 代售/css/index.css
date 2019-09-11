@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.nav {
+	background-color: #eee;
+	height: 30px;
+}
+.top-header {
+	float: right;
+	margin-right: 20px;
+	line-height: 30px;
+}
+.top-header span {
+	font-size: 14px;
+	color: 	#757575;
+	display: inline-block;
+}
+.top-header a {
+	color: 	#757575;
+	font-size: 14px;
+	font-weight: 400;
+	display: inline-block;
+}
+.top-nav {
+	height: 72px;
+	min-width: 1180px;
+	cursor: pointer;
+}
+.top-nav .logo {
+	width: 218;
+	margin: 10px 20px;
+	float: left;
+}
+.top-nav .list {
+	float: left;
+	margin-left: 80px;
+}
+.list li {
+	float: left;
+	margin-right: 1px;
+}
+.list li a {
+	color: #555555;
+	font-size: 14px;
+	padding: 0 20px;
+	height: 72px;
+	line-height: 72px;
+	display: block;
+}
+a.wj:after {
+	content: url(../images/tim.jpg);
+
+}
+#nav-shouye {
+	background-color: #388E8E;
+	color: #fff;
+}
+.list li a:hover {
+	background-color: #388E8E;
+	color: #fff;
+}
+.search {
+	float: right;
+	overflow: hidden;
+	border:1px solid #ccc;
+	border-radius: 20px;
+	line-height: 30px;
+	margin: 16px 50px 0;
+}
+.txt {
+	width: 50px;
+	height: 30px;
+	border: 0px solid #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.btn {
+	width: 26px;
+	height: 30px;
+	margin: 3px 3px ;
+	border: 0px solid #fff;
+	background: url(../images/icn.png) no-repeat -5px -363px;
+	text-indent: -100px;
+}
+#sub-num {
+	width: 94px;
+	float: none;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 102px;
+	left: 587px;
+	display: none;
+}
+#sub-num li {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+#sub-num img {
+	margin-right: 3px;
+}
