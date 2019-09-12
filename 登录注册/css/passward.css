@@ -1,0 +1,39 @@
+#identi {
+	height: 38px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #B7B7B7;
+	position: absolute;
+	top:22px;
+	right: 20px;
+}
+.changeward {
+	height: 38px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	width: 310px;
+	color: #969696;
+	display: block;
+}
+#keep {
+	height: 10px;
+	width: 10px;
+	color: #7A7A7A;
+	float: left;
+	margin-top: 15px;
+}
+#lg {
+	color: #7A7A7A;
+	font-size: 14px;
+}
+#login-foget {
+	float: right;
+	text-align: right;
+	width: 60px;
+	
+}
+#login-re {
+	float: right;
+	margin-right: 10px;
+	text-align: right;
+}
