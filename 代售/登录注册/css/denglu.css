@@ -1,0 +1,130 @@
+body {
+			background: url(../images/timg.jpg) no-repeat;
+			width: 100%;
+			background-size: cover;
+		}
+		.clearfix:after,.clearfix:before {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: bote;
+		}
+		.clearfix {
+			*zoom:1;
+		}
+		.main {
+			width: 350px;
+			/*height: 50px;*/
+			margin: 10px auto;
+			/*background-color: pink;*/
+			border-radius: 5px;
+		}
+		.headline {
+			height: 110px;
+			background:rgba(255,255,255,.3);
+			padding-top: 5px;
+		}
+		.headline h1, .headline h3 {
+			color: #fff;
+			text-align: center;
+			height: 25px;
+			line-height: 25px;
+		}
+		.content {
+			padding: 10px 10px 0;
+			background-color: #FAFAFA;
+			position: relative;
+		}
+		.content input {
+			width: 300px;
+			height: 38px;
+			padding-left: 10px;
+			border: 1px solid #eee;
+			border-radius: 3px;
+			margin: 10px;
+			outline: none;
+		}
+		.imagg {
+			width: 320px; 
+			height: 40px
+		}
+		.imagg img {
+			float: left;
+			display: inline-block;
+			margin-top: 3px;
+			margin-left: 10px
+		}
+		#codeImg {
+			width: 180px;
+			float:right; 
+			display:inline-block;
+			margin: 0 ;
+		}
+		input:focus {
+			border: 1px solid red;
+		}
+		.login {
+			background-color: #FAFAFA;
+			height: 38px;
+			/*margin-top: -10px;*/
+			line-height: 38px;
+			padding: 10px;
+		}
+		.login a {
+			text-decoration: none;
+			color: #7A7A7A;
+			font-size: 14px;
+		}
+		.login span {
+			display: inline-block;
+			width: 90px;
+		}
+		#login-f {
+			float: left;
+			padding-left: 20px;
+		}
+		#login-d {
+			float: right;
+			text-align: right;
+			padding-right: 20px;
+		}
+		#register {
+			width: 310px;
+			height: 38px;
+			background-color: #66CDAA;
+			color: #fff;
+			border: 1px solid #66CDAA;
+			margin-left: 10px;
+			display: inline-block;
+		}
+		.down {
+/*			height: 30px;
+*/			margin:20px 10px;
+		}
+		.down hr {
+			color: #66CDAA;
+			
+			width: 200px;
+		}
+		.down p {
+			font-size: 14px;
+			text-align: center;
+			width: 90px;
+			padding: 0 5px;
+			margin: -20px auto 0;
+			background-color: #FAFAFA;
+		}
+		#tencent {
+			height: 80px;
+			width: 300px;		
+		}
+		.down a {
+			width: 80px;
+			height: 60px;
+			display: block;
+			margin:20px auto;
+		}
+		#tencent a:hovor img {
+			background: rgba(0,0,0,0.5);
+		}

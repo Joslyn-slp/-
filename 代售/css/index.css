@@ -8,6 +8,16 @@ a {
 li {
 	list-style: none;
 }
+.clearfix:after,.clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom:1s;
+}
 .nav {
 	background-color: #eee;
 	height: 30px;
@@ -89,7 +99,7 @@ a.wj:after {
 	background: url(../images/icn.png) no-repeat -5px -363px;
 	text-indent: -100px;
 }
-#sub-num {
+#sub-num,#sub-jm {
 	width: 94px;
 	float: none;
 	border: 1px solid #ccc;
@@ -97,14 +107,201 @@ a.wj:after {
 	top: 102px;
 	left: 587px;
 	display: none;
+	z-index: 30;
+	background-color: #fff;
 }
-#sub-num li {
+#sub-jm {
+	position: absolute;
+	top: 102px;
+	left: 683px;
+}
+#sub-num li,#sub-jm li {
 	height: 40px;
 	line-height: 40px;
 	border-bottom: 1px solid #ccc;
 	text-align: center;
 	cursor: pointer;
 }
-#sub-num img {
+#sub-num img,#sub-jm img  {
 	margin-right: 3px;
+}
+/*#sub-num a:hover {
+	background-color: #388E8E;
+	color: #fff;
+}*/
+
+.content {
+	margin: 10px 30px;
+}
+/*轮播图样式*/
+
+.rotation {
+	position: relative;
+	width: 800px;
+	height: 375px;
+	float: left;
+}
+#imglist {
+	overflow: hidden;
+	width: 800px;
+	height: 375px;
+}
+#imglist a {
+	display: inline-block;
+}
+#imglist img {
+	width: 800px;
+	height: 375px;
+}
+#iconlist {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+#iconlist li {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	float: left;
+	margin-right: 3px;
+}
+/*右边栏上部分*/
+.sidebar-right {
+	float: right;
+	width: 350px;
+	margin: 20px;
+	border: 1px solid #eee;
+}
+.sige-img img {
+	width: 350px;
+}
+.sigebar-img img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: -50px;
+	margin-left: 125px;
+}
+.sigebar-img img:hover {
+	transform: rotate(360deg);
+	transform: -webkit-rotate(360deg);
+}
+.sidetxt {
+	text-align: center;
+	color: #545454;
+	margin-top: 20px;
+}
+.sidetxt h2 {
+	line-height: 50px;
+}
+.sidetxt p {
+	font-size: 14px;
+	/*height: 30px;*/
+	line-height: 26px;
+	font-weight: 700;
+}
+.sidebtn {
+	width: 280px;
+	margin:10px auto;
+}
+.sidebtn a {
+	width: 70px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	background-color:#388E8E;
+	color: #fff;
+	line-height: 30px;
+
+}
+.sidespan {
+	width: 350px;
+	border-top: 1px solid #eee;
+	background-color: #FFFAFA;
+}
+.sidespan span {
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+
+}
+#hao {
+	border-right: 1px solid #eee;
+	width: 80px;
+
+}
+#yuan {
+	border-right: 1px solid #eee;
+	width: 120px;
+}
+#fang {
+	width: 130px;
+}
+
+/*左边栏下半部*/
+.select-account {
+	margin: 10px 0;
+	width: 800px;
+	float: left;
+	border: 1px solid #eee;
+}
+.account-up {
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+}
+.account-up img {
+	width: 200px;
+	height: 120px;
+	
+	float: left;
+}
+.account-up span {
+	height: 30px;
+	display: inline-block;
+	float: left;
+}
+.account-down {
+	margin-top: 10px;
+}
+.account-down li {
+	width: 360px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	margin-left: 30px;
+	line-height: 30px;
+}
+.account-down a {
+	color: #555555;
+	font-size: 14px;
+}
+.message {
+	width: 350px;
+	margin-right: 20px;
+	border: 1px solid #eee;
+	float: right;
+	/*height: 200px;*/
+	padding: 10px;
+}
+.message img {
+	width: 30px;
+	height: 30px;margin-left: 10px;
+	margin-bottom: -8px;
+}
+.message h2 {
+	height: 34px;
+	color: #555555;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.message p {
+	height: 40px;
+	line-height: 40px;
+}
+.message a {
+	color: #555555;
+	margin-left: 10px;
 }

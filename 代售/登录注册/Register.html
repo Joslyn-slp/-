@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录注册</title>
+	<link rel="stylesheet" href="css/denglu.css">
+	
+</head>
+<body>
+	<div class="main clearfix">
+		<div class="headline">
+			<h1>泡泡代售中心</h1>
+			<h3>注册</h3>
+		</div>
+		<form class="content">
+			<input type="text" value="" id="username" placeholder="用户名">
+			<input type="text" value="" id="password" placeholder="密码">
+			<input type="text" value="" id="email" placeholder="邮箱">
+			<input type="text" value="" id="code" placeholder="验证码">
+			<div class="login">
+				<span id="login-f"><a href="忘记密码.html">忘记密码</a></span>
+				<span id="login-d"><a href="登录账号.html">登录账号</a></span>
+			</div>
+			<button onclick="validateform()" id="register">立即注册</button>
+			<div class="down">
+				<hr>
+				<p>社交账号登录</p>
+				<div id="tencent"><a href="https://www.paopaods.com/zb_users/plugin/LayCenter/lib/QQ/login.php" ><img src="images/qq.png" ></a></div>
+			</div>
+		</form>
+
+	</div>
+</body>
+<script>
+	$(document).ready(function(){
+		$("#username").click(function(){
+			$("input").toggleClass("border-color":"red");
+		})
+	})
+</script>
+</html>

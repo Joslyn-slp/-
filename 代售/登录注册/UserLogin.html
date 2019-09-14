@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录账号</title>
+	<link rel="stylesheet" href="css/denglu.css">
+	<link rel="stylesheet" href="css/passward.css">
+</head>
+<body>
+	<div class="main clearfix">
+		<div class="headline">
+			<h1>代售</h1>
+			<h3>欢迎登录</h3>
+		</div>
+		<form class="content">
+			<input type="text"  id="username" placeholder="输入用户名或邮箱">
+			<input type="text"  id="password" placeholder="密码">
+			<div class="imagg">
+				<img  src="images\2.jpg" width="50px" height="38px">
+				<input  type="text"  id="codeImg" placeholder="验证码">
+				
+			</div>
+			<div class="login">
+				<span id="lg"><input type="radio" name="sex" id="keep" value="保持登录">保持登录 </span>
+				<span id="login-foget"><a href="忘记密码.html">忘记密码</a></span>
+				<span id="login-re"><a href="登录注册.html">注册账号</a></span>
+			</div>
+			<button onclick="validateform()" id="register">登录</button>
+			<div class="down">
+				<hr>
+				<p>社交账号登录</p>
+				<div id="tencent"><a href="https://www.paopaods.com/zb_users/plugin/LayCenter/lib/QQ/login.php" ><img src="images/qq.png" ></a></div>
+			</div>
+		</form>
+
+	</div>
+</body>
+<script>
+	$(document).ready(function(){
+		$("#username").click(function(){
+			$("input").css("border-color":"red");
+		})
+	})
+</script>
+</html>

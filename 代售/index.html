@@ -4,45 +4,49 @@
 	<meta charset="UTF-8">
 	<title>代售-首页</title>
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
 	<script src="js/index.js"></script>
+
 </head>
 <body>
-	<div class="nav">
-		<div class="top-header">
-			<span>您好，欢迎到访泡泡代售--剑网3专业代售，一站式交易平台，租号业务！! </span>
-			<img src="images/icon.png" width="12px" height="12px">
-			<a href="#">注册会员</a>
-			<img src="images/icon.png" width="12px" height="12px">
-			<a href="#">QQ登录</a>
-			<img src="images/icon.png" width="12px" height="12px">
-			<a href="#">会员登录</a>
+	<!-- 导航栏 -->
+	<div class="nav-bar">
+		<div class="nav">
+			<div class="top-header">
+				<span>您好，欢迎到访泡泡代售--剑网3专业代售，一站式交易平台，租号业务！! </span>
+				<img src="images/icon.png" width="12px" height="12px">
+				<a href="#">注册会员</a>
+				<img src="images/icon.png" width="12px" height="12px">
+				<a href="#">QQ登录</a>
+				<img src="images/icon.png" width="12px" height="12px">
+				<a href="#">会员登录</a>
+			</div>
 		</div>
-	</div>
-	<div class="top-nav">
-		<div class="logo">
-			<img src="images/logo.png" width="218px">
+		<div class="top-nav">
+			<div class="logo">
+				<img src="images/logo.png" width="218px">
+			</div>
+			<div class="list">
+				<ul>
+					<li><a href="#" id="nav-shouye">首页</a></li>
+					<li><a href="#">点我卖号</a></li>
+					<li><a href="#">租号区</a></li>
+					<li><a href="#" class="wj" id="wm" onmouseover="wm()" onmouseout="wmmove()">老五门</a></li>
+					<li><a href="#" class="wj" id="jm"onmouseover="jm()" onmouseout="jmmove()">新九门</a></li>
+					<li><a href="#">最新号</a></li>
+					<li><a href="#">客服</a></li>
+					<li><a href="#">交易须知</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<form action="">
+					<input type="text" placeholder="搜索.." class="txt">
+					<input type="submit" class="btn" value="搜索">
+				</form>
+			</div>
+			
 		</div>
-		<div class="list">
-			<ul>
-				<li><a href="#" id="nav-shouye">首页</a></li>
-				<li><a href="#">点我卖号</a></li>
-				<li><a href="#">租号区</a></li>
-				<li><a href="#" class="wj" id="wm" onmouseover="wm()">老五门</a></li>
-				<li><a href="#" class="wj" id="jm">新九门</a></li>
-				<li><a href="#">最新号</a></li>
-				<li><a href="#">客服</a></li>
-				<li><a href="#">交易须知</a></li>
-			</ul>
-		</div>
-		<div class="search">
-			<form action="">
-				<input type="text" placeholder="搜索.." class="txt">
-				<input type="submit" class="btn" value="搜索">
-			</form>
-		</div>
-		
-	</div>
-	<div id="sub-num">
+		<div id="sub-num">
 			<ul>
 				<li><a href=""><img src="images/timg.jpg" alt="">天策</a></li>
 				<li><a href=""><img src="images/timg.jpg" alt="">万花</a></li>
@@ -51,5 +55,144 @@
 				<li><a href=""><img src="images/timg.jpg" alt="">七秀</a></li>
 			</ul>
 		</div>
+		<div id="sub-jm">
+			<ul>
+				<li><a href=""><img src="images/timg.jpg" alt="">五毒</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">藏剑</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">苍云</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">长歌</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">明教</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">丐帮</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">唐门</a></li>
+				<li><a href=""><img src="images/timg.jpg" alt="">霸刀</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 导航栏结束 -->
+	<div class="content">
+		<!-- 轮播图开始 -->
+		<div class="rotation">
+			<div id="imglist">
+				<a href="#"><img src="images/2.jpg" alt=""></a>
+				<a href="#"><img src="images/3.jpg" alt=""></a>
+				<a href="#"><img src="images/4.jpg" alt=""></a>
+				<a href="#"><img src="images/9_1.jpg" alt=""></a>
+				<a href="#"><img src="images/10.jpg" alt=""></a>
+			</div>
+			<ul id="iconlist">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<!-- 右侧栏 -->
+		<div class="sidebar-right">
+			<div class="sige-img">
+				<img src="images/txico1.png">
+			</div>
+			<div class="sigebar-img">
+				<img src="images/9.jpg" alt="">
+			</div>
+			<div class="sidetxt">
+				<h2>✿泡泡情号代售✿企业标识✿</h2>
+				<p>泡泡家承接全区服所有账号/租号/代开链接业务<br>
+					费用定金8软+成交5%
+				</p>
+			</div>
+			<div class="sidebtn">
+				<a href="#"><i class="fa fa-qq"></i>熊猫</a>
+				<a href="#"><i class="fa fa-qq"></i>泡泡</a>
+				<a href="#"><i class="fa fa-qq"></i>邱邱</a>
+			</div>
+			<div class="sidespan">
+				<span id="hao">838个号</span>
+				<span id="yuan">1684个会员</span>
+				<span id="fang">访问78900次</span>
+			</div>
+		</div>
+		<div class="select-account">
+			<div class="account-up clearfix">
+				<img src="images/qqq.png" alt="">
+				<span><a href="#"><b>【大泡泡全门派】【在售全门派合集·刷刷更健康】【每日更新】</b></a></span>
+			</div>
+			<div></div>
+			<div class="account-down">
+				<ul>
+					<li>
+						<i>1</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+					<li>
+						<i>2</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+					<li>
+						<i>3</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+					<li>
+						<i>4</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+					<li>
+						<i>5</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+					<li>
+						<i>6</i>
+						<a href="#" title="【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥">【电点喵哥】【50W】【PMJ888】100大铁归墟玄晶包出·外观包全·业火封狼·三尺青锋·红黑白路·全红发四红五红六红资历红全金发一代金狐金猴金资历金358成衣32五限六限全任侠河山四色年轮四色娃娃节日盒子全门派盒子全139披风情R枕一代披风全一代黑一代紫一代红一代黄一代白一代粉狐狸毛X2栽火莲六翼孔雀周年龙蓝盒子黑盒子红盒子青盒子糖盒子白盒子粉盒子花盒子叽盒子歌盒子秃盒子蓬莱盒子猪盒子喵盒子赤兔骤风焰归夜话黑龙白蛟腹曲云伞珠盏挂宠全济世菩萨门派脚印全10W资历喵哥</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="message">
+			<h2>信息栏</h2>
+			<p><img src="images/0.png" alt=""><a href="#"> 点我进五七万抢号群</a></b></p>
+			<p><img src="images/0.png" alt=""><a href="#"> 点我进策藏刀抢号群</a></b></p>
+			<p><img src="images/0.png" alt=""><a href="#"> 点我进喵炮丐抢号群</a></b></p>
+			<p><img src="images/0.png" alt=""><a href="#"> 点我进歌咩苍抢号群</a></b></p>
+			<p><img src="images/0.png" alt=""><a href="#"> 微信/微博：剑网3泡泡</a></b></p>
+		</div>
+	</div>
+
 </body>
+<script>
+		var imgs = document.getElementById("imglist").getElementsByTagName("img");
+		var icons = document.getElementById("iconlist").getElementsByTagName("li");
+		var divn = document.getElementsByClassName("rotation");
+		//设置循环的变量
+		var m =1;
+		//设置定时器
+		var timer = setInterval(run,1000);
+		function run(){
+			if (m>=5){
+				m=0;
+			}
+			imagscontrol(m);
+			iconscontrol(m);
+			m++;
+		}
+		function imagscontrol(n){
+			for(i=0;i<imgs.length;i++){
+				imgs[i].style.display="none";
+			}
+			imgs[n].style.display="block";
+			imgs[n].style.height="375px";
+		}
+		function iconscontrol(n){
+			for (i=0;i<icons.length;i++){
+				icons[i].style.backgroundColor="#ccc"
+			};
+			icons[n].style.backgroundColor="#fff"
+		}
+		divn.onmouseover=function(){
+		clearInterval(timer);
+		}
+		// 鼠标移走是页面循环
+		divn.onmouseout=function(){
+			timer=setInterval(run,2000)
+		}
+	</script>
 </html>
